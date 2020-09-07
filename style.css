@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.img-1,
+.img-2,
+.img-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-1 {
+  background-image: url("maldives-background\ \(2\).jpg");
+  min-height: 100%;
+}
+
+.img-2 {
+  background-image: url("maldives-back2.jpg");
+  min-height: 100%;
+}
+
+.img-3 {
+  background-image: url("maldives-back3.jpg");
+  min-height: 100%;
+}
+p {
+  font-size: 18px;
+}
+
+.caption {
+  font-size: 25px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.container-1 {
+  color: white;
+  background-color: #6691bb;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+.caption span .main-txt {
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+span {
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.main-txt {
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(29, 29, 29);
+}
+.second-p {
+  position: relative;
+  color: #ddd;
+  background-color: #6691bb;
+  text-align: center;
+  padding: 60px 80px;
+  text-align: justify;
+}
+.last-txt {
+  color: white;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #111;
+  text-align: center;
+}
+.finale-p {
+  position: relative;
+  color: #ddd;
+  background-color: #6691bb;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+.made-by {
+  margin-top: 200px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
